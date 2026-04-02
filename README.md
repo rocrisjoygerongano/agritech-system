@@ -10,19 +10,19 @@ This section provides visual documentation of the FarmShield AI interface, rangi
 
 ### A. FarmShield AI Dashboard
 The central monitoring hub where farmers can view the overall status of their farm, including environmental trends through visual data charts.
-![Frontend Dashboard](./images/frontend-dashboard.png)
+![Frontend Dashboard](./documentation/frontend-dashboard.png)
 
 ### B. Farm Management Interface
 This interface allows for the management of farm records, including farmer details, location, crop type, and land size to ensure accurate data categorization.
-![Farm Management](./images/frontend-farms.png)
+![Farm Management](./documentation/frontend-farms.png)
 
 ### C. Environmental Sensor Readings
 Displays live data transmissions from field sensors, including Soil Moisture, Temperature, Humidity, and Leaf Wetness.
-![Sensor Readings](./images/frontend-readings.png)
+![Sensor Readings](./documentation/frontend-readings.png)
 
 ### D. Automated Agricultural Recommendations
 Based on sensor data, the system generates AI recommendations, such as irrigation requirements or alerts for fungal risks, allowing for immediate action.
-![AI Recommendations](./images/frontend-recommendations.png)
+![AI Recommendations](./documentation/frontend-recommendations.png)
 
 ---
 
@@ -31,15 +31,15 @@ The backend utilizes the Django Administration interface to ensure secure manage
 
 ### A. Backend Farm Management
 Centralized organization of all farm locations and assets. This allows administrators to audit and manage geographical data across the system.
-![Backend Farms](./images/backend-farms.png)
+![Backend Farms](./documentation/backend-farms.png)
 
 ### B. Backend Monitoring Records
 Historical tracking of all sensor telemetry. This interface allows for the manual review of raw data logs to ensure hardware accuracy.
-![Backend Readings](./images/backend-readings.png)
+![Backend Readings](./documentation/backend-readings.png)
 
 ### C. Backend Recommendation Logic
 Management of the automated logic-based alerts. Administrators can review the parameters that trigger high-risk fungal or irrigation warnings.
-![Backend Recommendations](./images/backend-recommendations.png)
+![Backend Recommendations](./documentation/backend-recommendations.png)
 
 ---
 
