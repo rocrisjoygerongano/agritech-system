@@ -27,19 +27,19 @@ Based on sensor data, the system generates AI recommendations, such as irrigatio
 ---
 
 ## 3. Administrative Backend (Django REST Framework)
-The backend utilizes the Django Administration interface to ensure secure management of API endpoints and database records.
+The backend utilizes the Django Administration interface to ensure secure management of API endpoints, database records, and system-wide business logic.
 
-* **Backend Farm Management:** Centralized organization of all farm locations.
-* **Backend Monitoring Records:** Historical tracking of all sensor telemetry.
-* **Backend Recommendation Logic:** Management of logic-based alerts for farm users.
+### A. Backend Farm Management
+Centralized organization of all farm locations and assets. This allows administrators to audit and manage geographical data across the system.
+![Backend Farms](./images/backend-farms.png)
 
-<p align="center">
-  <img src="images/backend-farms.png" width="45%" />
-  <img src="images/backend-readings.png" width="45%" />
-</p>
-<p align="center">
-  <img src="images/backend-recommendations.png" width="60%" />
-</p>
+### B. Backend Monitoring Records
+Historical tracking of all sensor telemetry. This interface allows for the manual review of raw data logs to ensure hardware accuracy.
+![Backend Readings](./images/backend-readings.png)
+
+### C. Backend Recommendation Logic
+Management of the automated logic-based alerts. Administrators can review the parameters that trigger high-risk fungal or irrigation warnings.
+![Backend Recommendations](./images/backend-recommendations.png)
 
 ---
 
